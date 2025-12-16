@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main(void) {
-  GLFWwindow *window;
+  GLFWwindow* window;
   if (!glfwInit())
     return -1;
   window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
